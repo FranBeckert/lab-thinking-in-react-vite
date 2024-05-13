@@ -1,5 +1,4 @@
-function ProductRow({ product }) {
-  
+function ProductRow({ product }) { 
 
   return (
     <tr>  

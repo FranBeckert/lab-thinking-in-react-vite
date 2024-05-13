@@ -2,6 +2,7 @@ import ProductRow from "./ProductRow";
 
 function ProductTable({ products }) {
   // console.log("products2", products)
+  
   return (
     <div>
       <table>
@@ -11,7 +12,7 @@ function ProductTable({ products }) {
             <th>Price</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody>        
           {products.map((product) => (
             <ProductRow key={product.id} product={product} />
           ))}
