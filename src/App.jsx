@@ -1,9 +1,12 @@
 import "./App.css";
+import ProductTable from "./components/ProductTable";
+import ProductsPage from "./components/ProductsPage";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
-      <h1>React | Thinking in React</h1>
+      <ProductsPage />
     </div>
   );
 }
